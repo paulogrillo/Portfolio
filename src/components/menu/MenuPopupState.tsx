@@ -16,15 +16,15 @@ export default function MenuPopupState() {
           <Button 
           className="button"
           variant="contained" color="primary" {...bindTrigger(popupState)}>
-            Menu
+            <h1>Menu</h1>
           </Button>
           <Menu className="menu" {...bindMenu(popupState)}>
             <Link 
               className="link"
-              to="/projects-marketing">
+              to="/projects">
               <MenuItem 
               onClick={popupState.close}>
-              Portfolio de projetos
+              Projetos
               </MenuItem>
             </Link>
             <Link 
@@ -32,7 +32,15 @@ export default function MenuPopupState() {
               to="/projects-marketing">
               <MenuItem 
               onClick={popupState.close}>
-              Portfolio de projetos
+              Serviços
+              </MenuItem>
+            </Link>
+            <Link 
+              className="link"
+              to="/projects-marketing">
+              <MenuItem 
+              onClick={popupState.close}>
+              Blog
               </MenuItem>
             </Link>
 

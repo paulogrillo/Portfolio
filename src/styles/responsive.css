@@ -21,18 +21,20 @@
         position: absolute;
 
         top: 20px;
-        margin: 20px;
-        margin-right: -150px;
+        margin: 2px;
+        margin-right: -222px;
     }
     #page-landing .menu {
         position: absolute;
+
+        right: -20px;
         
     }
     #page-landing .content-wrapper {
         position: absolute;
-        
-        width: 90vw;
-        height: 100vh;  
+        top: 22px;
+        width: 100vw;
+        height: 90vh;  
     } #page-landing .content-wrapper main h1 {
         
         text-align: center;

@@ -1,5 +1,14 @@
 .button {
+    position: absolute;
+   left: 50px;
     width: 120px;
+
+
+}
+
+.button h1 {
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .menu {
