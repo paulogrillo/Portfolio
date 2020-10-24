@@ -1,0 +1,15 @@
+.button {
+    width: 120px;
+}
+
+.menu {
+
+    margin-top: 30px;
+
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}

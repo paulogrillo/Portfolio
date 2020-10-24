@@ -1,0 +1,44 @@
+@media(max-width: 1200px){
+ 
+
+    
+    #page-landing .content-wrapper main img {
+        width: 300px;
+        height: 205px;
+
+        align-items: center;
+    }
+}
+
+@media(max-width: 500px){
+    
+    #page-landing {
+        align-items: center;
+    }
+
+
+    #page-landing .social{
+        position: absolute;
+
+        top: 20px;
+        margin: 20px;
+        margin-right: -150px;
+    }
+    #page-landing .menu {
+        position: absolute;
+        
+    }
+    #page-landing .content-wrapper {
+        position: absolute;
+        
+        width: 90vw;
+        height: 100vh;  
+    } #page-landing .content-wrapper main h1 {
+        
+        text-align: center;
+    }
+}
+    
+
+
+

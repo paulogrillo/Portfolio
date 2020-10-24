@@ -1,0 +1,170 @@
+#page-landing {
+
+width: 100vw;
+height: 100vh;  
+
+background: linear-gradient(329.54deg, #29B6D1 0%, rgba(17, 136, 102, 0.904) 70%);
+
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+
+#page-landing .menu {
+    position: absolute;
+
+    right: 0;
+    height: 0;
+    top: 0;
+
+    margin: 80px;
+    margin-right: 200px;
+}
+
+#page-landing .logo {
+    position: absolute;
+    
+    left: 20px;
+
+    right: auto;
+    height: 0;
+    top: 10px;
+
+    margin: 80px;
+    margin-right: 200px;
+}
+
+#page-landing .social {
+    
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+    top: 5.2rem;
+    right: 22rem;
+    
+}
+
+
+#page-landing .content-wrapper {
+    position: relative;
+
+    width: 40%;
+    max-width: 1100px;
+
+    height: 90%;
+    max-height: 680px;
+
+    align-content: center;
+    
+}
+
+#page-landing .content-wrapper span {
+    position: relative;
+ 
+
+    align-content: center;
+}
+
+
+#page-landing .content-wrapper main {
+
+}
+
+#page-landing .content-wrapper main img {
+    position: absolute;
+
+    margin: 50px;
+
+    bottom: -35px;
+    
+
+}
+
+#page-landing .content-wrapper main h1 {
+    
+    display: grid;
+
+   text-align: left;
+
+    margin-top: 200px;
+    margin-bottom: -10px;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 65px;
+}
+
+#page-landing .content-wrapper main h2 {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 24px
+}
+
+.content-wrapper .profile {
+ 
+    position: absolute;
+
+    right: 700px;
+    
+    border: #cbe0c1 solid 6px;
+    border-radius: 140px ;
+    
+    opacity: 80%;
+
+    transition: 200ms ease-in;
+}
+
+.content-wrapper .profile:hover {
+    opacity: 95%;
+}
+.content-wrapper .logo {
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    width: 200px;
+    height: 200px;
+
+    font-size: 26px;
+    line-height: 34px;
+
+    margin: 20px;
+
+    text-align: right;
+
+
+}
+
+.content-wrapper .enter-projects {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+    width: 140px;
+    height: 40px;
+
+    background: #5765e759;
+    border-radius: 12px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: 0.6s;
+}
+
+.content-wrapper .enter-projects h2 {
+    color: aliceblue;
+}
+
+.content-wrapper .enter-projects:hover {
+    
+    
+
+    background: #3949da9c;
+
+
+}
