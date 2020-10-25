@@ -9,7 +9,9 @@
         align-items: center;
     }
 }
+@media(max-width: 800px){
 
+}
 @media(max-width: 500px){
     
     #page-landing {
@@ -20,15 +22,22 @@
     #page-landing .social{
         position: absolute;
 
-        top: 20px;
-        margin: 2px;
-        margin-right: -222px;
+        right: 20px;
+        top: 25px;
+        
     }
     #page-landing .menu {
         position: absolute;
 
-        right: -20px;
+        right: -160px;
         
+    }#page-landing .logo {
+        position: absolute;
+        width: 8.9rem;
+        height: 8.9rem;
+    
+        left: 10px;
+        top: 25px;
     }
     #page-landing .content-wrapper {
         width: 200vh;

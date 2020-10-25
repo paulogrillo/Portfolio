@@ -12,7 +12,6 @@ align-items: center;
 
 
 }
-
 #page-landing .menu {
     position: absolute;
 
@@ -26,15 +25,12 @@ align-items: center;
 
 #page-landing .logo {
     position: absolute;
-    
-    left: 20px;
+    width: 150px;
+    height: 150px;
 
-    right: auto;
-    height: 0;
-    top: 10px;
+    left: 100px;
+    top: 40px;
 
-    margin: 80px;
-    margin-right: 200px;
 }
 
 #page-landing .social {
@@ -42,13 +38,11 @@ align-items: center;
     position: absolute;
     display: flex;
     justify-content: space-between;
-    width: 120px;
-    top: 5.2rem;
-    right: 22rem;
+    width: 6.5rem;
+    top: 5.3rem;
+    right: 17.5rem;
     
 }
-
-
 #page-landing .content-wrapper {
     position: relative;
 

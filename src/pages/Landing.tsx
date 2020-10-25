@@ -1,13 +1,16 @@
 import React from 'react';
 
-import { FiTwitter } from 'react-icons/fi';
-import { FiLinkedin } from 'react-icons/fi';
-import { FiGithub } from 'react-icons/fi';
+import { RiTwitterLine } from 'react-icons/ri';
+import { RiLinkedinLine } from 'react-icons/ri';
+import { RiGithubLine } from 'react-icons/ri';
+
+import Logo from '../img/logo.svg';
 
 import '../styles/landing.css';
 import '../styles/responsive.css';
 import ImgHome from '../img/ImgHome.png'
 import MenuPopupState from '../components/menu/MenuPopupState';
+import { colors } from '@material-ui/core';
 
 
 
@@ -17,25 +20,34 @@ function Landing(){
             
 
           <header>
-            <div className="social">
-                <a href="https://twitter.com/PauloGrillo94">
-                <FiTwitter 
-                  size={28} 
-                  color="#FFF"/>
-                </a>
+            <img 
+              src={Logo} 
+              className="logo"
+              alt="Guto"/>
+            
+            <div className="social">          
+            <a href="https://twitter.com/PauloGrillo94">
+                <RiTwitterLine 
+                  size={24} 
+                  color="#cbe0e1"
+                  className="social-icon"
+                  />          
+            </a>
+            <a href="https://twitter.com/PauloGrillo94">
+                <RiGithubLine
+                  size={24} 
+                  color="#cbe0e1"
+                  />
+            </a>
 
-                <a href="https://twitter.com/PauloGrillo94">
-                <FiLinkedin 
-                  size={28} 
-                  color="#FFF"/>
-                </a>
-
-                <a href="https://twitter.com/PauloGrillo94">
-                <FiGithub
-                  size={28} 
-                  color="#FFF"/>
-                </a>
-              </div>
+            <a href="https://twitter.com/PauloGrillo94">
+                <RiLinkedinLine 
+                  size={25} 
+                  color="#cbe0e1"
+                  className="social-icon"
+                  />
+            </a>
+          </div>
 
               <div className="menu">
                 <MenuPopupState />

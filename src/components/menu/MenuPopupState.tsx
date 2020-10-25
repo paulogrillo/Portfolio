@@ -5,6 +5,8 @@ import MenuItem from '@material-ui/core/MenuItem';
 import PopupState, { bindTrigger, bindMenu } from 'material-ui-popup-state';
 import { Link  } from 'react-router-dom';
 
+import { GrMenu } from 'react-icons/gr';
+
 import '../../components/menu/style.css'
 import Routes from '../../routes';
 
@@ -14,9 +16,11 @@ export default function MenuPopupState() {
       {(popupState) => (
         <React.Fragment>
           <Button 
-          className="button"
-          variant="contained" color="primary" {...bindTrigger(popupState)}>
-            <h1>Menu</h1>
+          
+          variant="contained"  className="button" color="default"  {...bindTrigger(popupState)}>
+            <GrMenu
+            id="menu-icon"
+            />
           </Button>
           <Menu className="menu" {...bindMenu(popupState)}>
             <Link 
