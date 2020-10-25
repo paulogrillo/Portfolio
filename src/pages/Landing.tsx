@@ -33,14 +33,14 @@ function Landing(){
                   className="social-icon"
                   />          
             </a>
-            <a href="https://twitter.com/PauloGrillo94">
+            <a href="https://github.com/paulogrillo">
                 <RiGithubLine
                   size={24} 
                   color="#cbe0e1"
                   />
             </a>
 
-            <a href="https://twitter.com/PauloGrillo94">
+            <a href="https://www.linkedin.com/in/paulo-augusto-grillo/">
                 <RiLinkedinLine 
                   size={25} 
                   color="#cbe0e1"

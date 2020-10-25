@@ -33,7 +33,7 @@ export default function MenuPopupState() {
             </Link>
             <Link 
               className="link"
-              to="/projects-marketing">
+              to="/">
               <MenuItem 
               onClick={popupState.close}>
               Serviços
@@ -41,7 +41,7 @@ export default function MenuPopupState() {
             </Link>
             <Link 
               className="link"
-              to="/projects-marketing">
+              to="/">
               <MenuItem 
               onClick={popupState.close}>
               Blog
