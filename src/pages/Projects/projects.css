@@ -1,0 +1,59 @@
+.page-projects {
+   
+    width: 100vw;
+    height: 100vh;  
+    
+    background: linear-gradient(329.54deg, #29B6D1 0%, rgba(17, 136, 102, 0.904) 70%);
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+ .header {
+    position: absolute;
+
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 490px;
+}
+
+.page-projects .header .arrow {
+    position: absolute;
+
+    top: 100px;
+    left: 100px;
+    width: 35px;
+    height: 35px;
+}.page-projects .header .text-arrow {
+   
+    text-decoration: none;
+    font-size: 18px;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.page-projects .header .social {
+        
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 6.5rem;
+    top: 43px;
+    right: 140px;
+    
+}
+
+.page-projects .header .menu {
+    position: absolute;
+
+    right: 0;
+    height: 0;
+    top: 0;
+
+    margin: 80px;
+    margin-right: 200px;
+}

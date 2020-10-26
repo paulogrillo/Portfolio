@@ -8,7 +8,6 @@ import { Link  } from 'react-router-dom';
 import { GrMenu } from 'react-icons/gr';
 
 import '../../components/menu/style.css'
-import Routes from '../../routes';
 
 export default function MenuPopupState() {
   return (
@@ -17,15 +16,18 @@ export default function MenuPopupState() {
         <React.Fragment>
           <Button 
           
-          variant="contained"  className="button" color="default"  {...bindTrigger(popupState)}>
+            className="button"  {...bindTrigger(popupState)}>
             <GrMenu
             id="menu-icon"
+            size={25}
+            
             />
           </Button>
           <Menu className="menu" {...bindMenu(popupState)}>
             <Link 
               className="link"
               to="/projects">
+              
               <MenuItem 
               onClick={popupState.close}>
               Projetos

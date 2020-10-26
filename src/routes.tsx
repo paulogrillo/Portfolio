@@ -2,8 +2,8 @@ import React from 'react';
 
 import {  BrowserRouter, Switch, Route} from 'react-router-dom';
 
-import Landing from './pages/Landing';
-import Projects from './pages/Projects';
+import Landing from './pages/Landing/Landing';
+import Projects from './pages/Projects/Projects';
 
 
 

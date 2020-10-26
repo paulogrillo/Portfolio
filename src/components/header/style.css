@@ -1,0 +1,54 @@
+.content-header {
+    position: absolute;
+
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 490px;
+}
+
+.content-header .menu {
+    position: absolute;
+
+    right: 0;
+    height: 0;
+    top: 0;
+
+    margin: 80px;
+    margin-right: 200px;
+}
+
+.logo {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+
+    left: 100px;
+    top: 40px;
+
+}
+
+#page-landing .social {
+    
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 6.5rem;
+    top: 5.3rem;
+    right: 17.5rem;
+    
+}
+
+@media(max-width: 500px){
+    #page-landing .social {
+    
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        width: 5.5rem;
+        top: 5.1rem;
+        right: 7.5rem;
+        
+    }
+  
+    }

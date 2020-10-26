@@ -1,0 +1,28 @@
+.cards-x {
+    position: relative;
+
+
+    display: flex;
+    
+    justify-content: space-between;
+    float: left;
+
+
+    top: 200px;
+    
+    left: 50px;
+    align-items: center;
+    
+}
+
+.card-1 {
+    margin: 5px;
+}
+.card-2{
+    margin: 5px;
+}
+.card-3 {
+    margin: 5px;
+}
+
+
